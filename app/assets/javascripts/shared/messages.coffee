@@ -44,7 +44,7 @@ window.open = (id, type) ->
 
 
 window.add = (slug, id, type) ->
-  additional = if type == "channel" then "#" else ""
+  additional = if type == "channels" then "#" else ""
   $('.' + type + 's').prepend('<li class="' + type + '_' + id + '">' +
                               '  <div>' +
                                     '<a href="#" class="open_' + type + '">' +
