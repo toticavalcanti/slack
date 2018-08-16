@@ -11,3 +11,4 @@ class MessageBroadcastJob < ApplicationJob
                                           })
     end
   end
+  
